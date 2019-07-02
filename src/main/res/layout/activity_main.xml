@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <com.scy.component.customeview.FlowLayout
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_height="wrap_content"
+            android:background="#eeeeee">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:text="111test" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginBottom="30dp"
+                android:paddingLeft="30dp"
+                android:text="tes23t" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="tsadfasdfadfsdfest" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="123456765432" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1ww234567fdghjklsdf65432" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sfdaa" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="sfafdadaa" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:text="sfafdadaa" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="tsadfasdfadfsdfest" />
+
+            <Button
+                android:id="@+id/btn10"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="123456765432" />
+
+            <Button
+                android:id="@+id/btn11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="qq1234567fdghjklsdf65432" />
+
+            <Button
+                android:id="@+id/btn12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sfdaa" />
+
+            <Button
+                android:id="@+id/btn13"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="sfafdadaa" />
+
+            <Button
+                android:id="@+id/btn14"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:text="sfafdadaa" />
+
+            <Button
+                android:id="@+id/btn15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234567fdghjklsdf65432" />
+
+            <Button
+                android:id="@+id/btn16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sfdaa" />
+
+            <Button
+                android:id="@+id/btn17"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="sfafdadaa" />
+
+            <Button
+                android:id="@+id/btn18"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:text="last--sfafdadaa" />
+        </com.scy.component.customeview.FlowLayout>
+
+</LinearLayout>
